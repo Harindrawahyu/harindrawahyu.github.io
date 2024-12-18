@@ -10,6 +10,12 @@
     background-color: #22252C;
 }
 
+#navbar-link a {
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    }  
+
 #navbar-link a:hover {
     padding: 8px;
     background-color: #434752;
@@ -32,6 +38,11 @@
 .logo svg:hover {
     color: #E14658(13, 110, 255);
 }
+
+.card-spacing {
+    margin: 15px;
+}
+
 
 #projects {
     background-color: #C0B3A0;
