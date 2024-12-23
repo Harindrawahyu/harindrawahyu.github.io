@@ -1,3 +1,70 @@
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        Swal.fire({
+          icon: 'success',
+          title: 'Terkirim!',
+          text: 'Pesan Anda telah berhasil dikirim.'
+        });
+        form.reset();
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Gagal!',
+          text: 'Terjadi kesalahan, silakan coba lagi nanti.'
+        });
+      }
+    })
+    .catch(error => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Gagal!',
+        text: 'Terjadi kesalahan, silakan coba lagi nanti.'
+      });
+    });
+  });
+
+
+
+
+const btn = document.getElementById('btn');
+btn.addEventListener('click', function () {
+
+const name = document.getElementById('name').value; 
+const email = document.getElementById('email').value; 
+const pesan = document.getElementById('pesan').value;
+          
+    if( name == '' || email == '' || pesan == '') {
+       
+       Swal.fire(
+          'Form kosong',
+          'Harap isi form yg kosong',
+          'warning'
+        )  
+                    
+    } else {              
+       
+        Swal.fire(
+        'Terima Kasih!',
+        'Pesan anda telah diterima!',
+        'success'
+    )        
+    }
+});    
+
+
 
     <!-- Schema Markup -->
   <script type="application/ld+json">
