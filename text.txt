@@ -1,50 +1,30 @@
-    <!-- <script type="application/ld+json">
-      {
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Harindra Wahyu Arifudin",
-          "jobTitle": "Web Developer",
-          "description": "Mahasiswa Universitas Yatsi Madani"
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Jl. Gatot Subroto KM 6,5, Kp. Jatake RT001/RW001, Kec. Jatiuwung, Kota Tangerang"
-          },
-          "description": "Mahasiswa | Web Developer",
-          "image": "<https:>/img/profile1.jpg",  // Replace with the actual URL of the profile image
-          "url": "https://harindrawahyu.github.io/",  // Replace with the actual URL of the portfolio
-          "sameAs": [
-            "https://www.instagram.com/hr_yu19"  // Replace with actual social media links if available
-          ],
-          "project": [
-            {
-              "@type": "CreativeWork",
-              "name": "Project 1",
-              "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-              "image": "https://example.com/img/anya.png",  // Replace with the actual URL of the project image
-              "url": "https://example.com/project1"  // Replace with the actual URL of the project
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Project 2",
-              "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-              "image": "https://example.com/img/anya.png",  // Replace with the actual URL of the project image
-              "url": "https://example.com/project2"  // Replace with the actual URL of the project
-            },
-            {
-              "@type": "CreativeWork",
-              "name": "Project 3",
-              "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-              "image": "https://example.com/img/anya.png",  // Replace with the actual URL of the project image
-              "url": "https://example.com/project3"  // Replace with the actual URL of the project
-            }
-          ],
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "Customer Service",
-            "email": "mailto:example@example.com",  // Replace with the actual email address
-            "telephone": "+1234567890"  // Replace with the actual phone number if available
-          }
-        }
-      }
-    </script> -->
+
+    <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "AggregateRating",
+      "itemReviewed": {
+        "@type": "Organization",
+        "name": "Raka Danuraya - Mahasiswa IT",
+        "description": "Mahasiswa Universitas Yatsi Madani dengan keahlian di bidang IT, troubleshooting, teknisi, dan Microsoft Office.",
+        "url": "https://rakauym.rf.gd",
+        "logo": "assets/img/raka1.jpg",
+        "image": "assets/img/raka1.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Aria Santika No.40A, RT.005/RW.011, Margasari, Kec. Karawaci",
+          "addressLocality": "Tangerang",
+          "addressRegion": "Banten",
+          "postalCode": "15113",
+          "addressCountry": "ID"
+        },
+        "telephone": "+62-21-55726558",
+        "email": "mailto:admin@uym.ac.id"
+      },
+      "ratingValue": 4.8,
+      "bestRating": 5,
+      "ratingCount": 120
+    }
+    </script>
+    
