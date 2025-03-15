@@ -73,17 +73,23 @@ const pesan = document.getElementById('pesan').value;
       "@type": "AggregateRating",
       "itemReviewed": {
         "@type": "Organization",
-        "name": "Raka Danuraya - Mahasiswa IT",
+        "name": "Harindra Wahyu Arifudin - Mahasiswa IT",
         "description": "Mahasiswa Universitas Yatsi Madani dengan keahlian di bidang IT, troubleshooting, teknisi, dan Microsoft Office.",
-        "url": "https://rakauym.rf.gd",
-        "logo": "assets/img/raka1.jpg",
-        "image": "assets/img/raka1.jpg",
+        "url": "https://harindraportfolio.com",
+        "logo": "...",
+        "image": "https://harindraportfolio.com/img/profile1.jpg",
+        "sameAs": [
+                    "https://www.facebook.com/harindra.wahyu.427",
+                    "https://www.instagram.com/hr_yu19",
+                    "https://www.youtube.com/@kaiden.01",
+                    "https://github.com/Harindrawahyu"
+                ],
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Jl. Aria Santika No.40A, RT.005/RW.011, Margasari, Kec. Karawaci",
           "addressLocality": "Tangerang",
           "addressRegion": "Banten",
-          "postalCode": "15113",
+          "postalCode": "15136",
           "addressCountry": "ID"
         },
         "telephone": "+62-21-55726558",
